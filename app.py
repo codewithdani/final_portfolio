@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify, session, redirect, url_for
 import requests
-from sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import sqlite3
 
