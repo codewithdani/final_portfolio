@@ -50,7 +50,7 @@ jeepney==0.7.1
 Jinja2==3.1.2
 jsonschema==4.19.1
 jsonschema-specifications==2023.7.1
-kazam==1.4.5
+kazam==1.5.5
 keyring==23.5.0
 Kivy==2.2.1
 Kivy-Garden==0.1.5
