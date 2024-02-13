@@ -36,7 +36,10 @@ def signup():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        if username and password:
+        existing_user = User.query.filter_by(username=username).first()
+        if existing_user:
+            return render_template('signup.html', error='Account already registered.')
+        else:
             new_user = User(username=username, password=password)
             db.session.add(new_user)
             db.session.commit()
@@ -52,6 +55,8 @@ def signin():
         if user:
             session['username'] = username
             return redirect(url_for('jokes'))
+        else:
+            return render_template('signin.html', error='User not found. Please register.')
     return render_template('signin.html')
 
 @app.route('/logout')
