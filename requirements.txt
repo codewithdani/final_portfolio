@@ -16,7 +16,7 @@ defer==1.0.4
 Deprecated==1.2.14
 dill==0.3.7
 distro==1.7.0
-distro-info==1.1+ubuntu0.2
+distro-info==1.1+ubuntu0.1
 docutils==0.20.1
 duplicity==0.8.21
 exceptiongroup==1.1.2
