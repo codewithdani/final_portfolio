@@ -22,6 +22,10 @@ nav ul li {
     display: inline;
     margin-right: 10px; /* Adjust spacing between links */
 }
+nav ul li a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline */
+}
 
 * {
     margin: 0;
