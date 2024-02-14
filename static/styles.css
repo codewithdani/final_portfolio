@@ -7,6 +7,22 @@
     color: white;
 }
 
+nav {
+    background-color: rgb(128, 123, 123); /* Set background color */
+    text-align: right; /* Align navbar to the right */
+    padding: 10px; /* Add padding for spacing */
+    width: 100%
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px; /* Adjust spacing between links */
+}
+
 * {
     margin: 0;
     padding: 0;
